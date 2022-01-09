@@ -31,7 +31,7 @@
             <option value="two or three times a week">Two or three times a week</option>
             <option value="over four times a week">Over four times a week</option>
         </select><br><br>
-        <div>
+        <div class="radio input">
           <p>Which coffee do you prefer?</p>
           <label>
             <input type="radio" id="radio" name="radio" value="manual brew">Manual Brew
@@ -46,7 +46,23 @@
             <input type="radio" id="radio" name="radio" value="none of the above">None of the above
           </label>
         </div>
-        <label for="checkbox">Where do you order your coffee</label>
+      <div class="checkbox-input">
+        <p>Where do you order your coffee</p>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="via apps">via Apps
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="on the spot">On the spot
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="never">Never
+        </label>
+      </div>
+      <div class=suggestion-box>
+        <label for="suggestion">Any Suggestions?</label>
+        <textarea id="suggestion" name="suggestion" rows="10" cols="50" placeholder="put your suggestion here"></textarea>
+      </div>
+      <input type="submit" id="submit" name="submit" value="Submit">
     </form>   
 </body>
 </html>
