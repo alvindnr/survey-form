@@ -25,16 +25,27 @@
         <input type="number" id="number" name="number" placeholder="Age" pattern="[0-9]" title="Please use numerical (0-9) for this section." minlength="1" maxlength="3"><br><br>
         <label for="dropdown">How often do you drink coffee in a week?</label>
         <select name="dropdown" id="dropdown">
+            <option disabled="" selected="" value="">Select that apply</option>
             <option value="never">Never</option>
             <option value="once a week">Once a week</option>
             <option value="two or three times a week">Two or three times a week</option>
             <option value="over four times a week">Over four times a week</option>
         </select><br><br>
-        <label for="radio">Which coffee do you prefer?</label><br>
-        <input type="radio" id="radio" name="radio" value="Manual Brew"><br>
-        <input type="radio" id="radio" name="radio" value="Flat White"><br>
-        <input type="radio" id="radio" name="radio" value="Cold Brew"><br>
-        <input type="radio" id="radio" name="radio" value="None of the above"><br>
+        <div>
+          <p>Which coffee do you prefer?</p>
+          <label>
+            <input type="radio" id="radio" name="radio" value="manual brew">Manual Brew
+          </label>
+          <label>
+            <input type="radio" id="radio" name="radio" value="flat white">Flat white
+          </label>
+          <label>
+            <input type="radio" id="radio" name="radio" value="cold brew">Cold Brew
+          </label>
+          <label>
+            <input type="radio" id="radio" name="radio" value="none of the above">None of the above
+          </label>
+        </div>
         <label for="checkbox">Where do you order your coffee</label>
     </form>   
 </body>
