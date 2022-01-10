@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    background: url(coffee1.jpg);
+    background-color: #fe938c;
     display: flex;
     align-items: center;
     justify-content: center;
